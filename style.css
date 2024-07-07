@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Whisper&display=swap');
+
+body {
+    background: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(10, 9, 10);
+    padding-left: 30px;
+    display: inline;
+}
+
+.btn {
+    margin-left: 40px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgb(212, 210, 210);
+}
+
+.navbar {
+    float: right;
+ 
+}
+
+.nav-contents a {
+    text-decoration: none;
+    color: rgb(118, 116, 116);
+    display: inline;
+    padding: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nav-contents a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.nav-contents a:active {
+    color: black;
+}
+
+
+
+
+
+
+
+/* ========================================================================== */
+
+/*
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+   
+}
+
+.logo {
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #8291A5;
+    padding: 8px 30px;
+    
+}
+
+ul li a:hover,
+ul li a:active {
+    color: black;
+    
+}
+
+.icon {
+    background-color: #d1e9fc;
+    padding: 5px 7px 3px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.icon i{
+    color: #FFF;
+    height: 28px;
+    transition: all .3s ease;
+}
+
+.icon:hover {
+    background: white;
+}
+
+.icon:hover i {
+    color: #d1e9fc
+}
+
+#checkbox, 
+.icon {
+    display: none;   
+}
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        border-bottom: 1px solid #455464;
+    }
+    
+    ul {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 71px);
+        background-color: rgb(155, 208, 230);
+        left: 0;
+        top: 0;
+        text-align: center;
+        display: none;
+        margin-top: 71px;
+    }
+
+    ul li {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .checkbox:checked~ul {
+        display: block;
+    }
+}
+
+*/
+
+
+
+/* ====================================================================================== */
+
+/*
+
+@media screen and (max-width: 1003px) {
+    nav {
+        border-bottom: 1px solid #455464;
+    }
+    
+    .product-container img {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    nav {
+        border-bottom: 1px solid #455464;
+    }
+    
+    ul {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 71px);
+        background-color: rgb(155, 208, 230);
+        left: 0;
+        top: 0;
+        text-align: center;
+        display: none;
+        margin-top: 71px;
+    }
+
+    ul li {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    #checkbox:checked~ul {
+        display: block;
+    }
+    
+}
+
+*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ======================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.defn {
+    padding-left: 40px;
+    margin-top: 150px;
+    font-size: 50px;
+    display: inline-block;
+}
+.brand-container h1 {
+    text-align: center;
+}
+
+.brand-container p {
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.name {
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+.brand-container h2 {
+    text-align: center;
+}
+
+.display {
+    font-size: 40px;
+}
+
+.display-name {
+    font-size: 30px;
+}
+
+.bluetooth {
+    font-size: 30px;
+}
+
+.product {
+    position: relative;
+    float: right;
+    padding-right: 120px;
+    padding-top: 150px;
+}
+
+.desc {
+    margin-top: 1px;
+    padding-left: 40px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.products {
+    padding-top: 60px;
+    padding-left: 350px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.features-container img {
+    position: relative;
+    float: right;
+    padding-right: 30px;
+    padding-top: 1px;
+}
+
+.features-container h2 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.features-container p {
+    padding-left: 30px;
+}
+
+
+
+.feature-contents i {
+    padding-left: 30px;
+    padding-top: 30px;
+   
+}
+
+.feature-contents h1 {
+    padding-left: 30px;
+    padding-top: 0.1px;
+}
+
+.feature-contents p {
+    padding-left: 30px;
+}
+
+.feature-contents-1 i {
+    padding-left: 30px;
+    padding-top: 30px;
+   
+}
+
+.feature-contents-1 h1 {
+    padding-left: 30px;
+    padding-top: 0.1px;
+}
+
+.feature-contents-1 p {
+    padding-left: 30px;
+}
+
+.feature-container-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.health-container-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.health-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.health-image {
+    padding-top: 150px;
+    position: relative;
+    float: right;
+    
+}
+
+.health-contents h1 {
+    padding-left: 30px;
+    padding-top: 0.1px;
+}
+
+.health-contents p {
+    padding-left: 30px;
+    
+}
+
+.health-contents-1 h1 {
+    padding-left: 30px;
+    padding-top: 0.1px;
+}
+
+.health-contents-1 p {
+    padding-left: 30px;
+}
+
+.key-feature-container h1 {
+    padding-left: 30px;
+}
+
+.key {
+    position: relative;
+    float: right;
+    padding-right: 50px;
+}
+
+footer h2 {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+footer h3 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.facebook i {
+    margin-left: 30px;
+}
+
+.footer-content .facebook-content {
+    
+    display: inline;
+}
+
+.instagram i {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.footer-content .instagram-content {
+    
+    display: inline;
+}
+
+.youtube i {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.footer-content .youtube-content {
+    
+    display: inline;
+}
+
+/* @media screen and (min-width: 992px) {
+    .navbar {
+        display: none !important;
+    }
+    .navbar a {
+        color: #303030;
+        width: 100%;
+        display: block;
+        padding: 16px;
+    }
+} */
+
+
+
+
+
